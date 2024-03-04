@@ -3,7 +3,7 @@
 
 const toggleButton = document.querySelector('.themes__toggle');
 
-const darkTheme = () => toggleButton.classList.toggle('.themes__toggle--isActive');
+const darkTheme = () => toggleButton.classList.toggle('themes__toggle--isActive');
 
 const darkThemeKeyEnter = (event) => (event.key === 'Enter') && darkTheme();
 
